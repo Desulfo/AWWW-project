@@ -1,0 +1,400 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import url("https://fonts.googleapis.com/css?family=Roboto:900");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif; }
+
+a {
+  text-decoration: none; }
+
+h2 {
+  color: #4b479e;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center; }
+
+p {
+  font-size: 16px;
+  line-height: 1.8; }
+
+button:hover {
+  cursor: pointer; }
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: auto;
+  position: relative; }
+
+[class*="col-"] {
+  float: left; }
+
+.col-1 {
+  width: 8.33%; }
+
+.col-2 {
+  width: 16.66%; }
+
+.col-3 {
+  width: 25%; }
+
+.col-4 {
+  width: 33.33%; }
+
+.col-5 {
+  width: 41.66%; }
+
+.col-6 {
+  width: 50%; }
+
+.col-7 {
+  width: 58.33%; }
+
+.col-8 {
+  width: 66.66%; }
+
+.col-9 {
+  width: 75%; }
+
+.col-10 {
+  width: 83.33%; }
+
+.col-11 {
+  width: 91.66%; }
+
+.col-12 {
+  width: 100%; }
+
+.hero {
+  background-image: url("../images/bg2.jpg");
+  background-repeat: none;
+  height: 900px; }
+  .hero nav {
+    padding-top: 45px; }
+    .hero nav img {
+      padding-top: 11px;
+      float: left;
+      height: 32px; }
+    .hero nav ul {
+      list-style-type: none;
+      display: flex;
+      align-items: center;
+      float: right;
+      flex-wrap: wrap; }
+      .hero nav ul li {
+        height: 30px;
+        margin: 0 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center; }
+        .hero nav ul li:last-child {
+          width: 135px;
+          height: 54px;
+          border: 2px solid #5c7cc7;
+          border-radius: 50px; }
+        .hero nav ul li a {
+          text-align: center;
+          font-weight: bold;
+          font-size: 18px;
+          color: white; }
+  .hero .whatwedo {
+    margin-top: 200px; }
+    .hero .whatwedo h1 {
+      color: white;
+      font-family: "Roboto", sans-serif;
+      font-size: 54px;
+      font-weight: bold; }
+    .hero .whatwedo p {
+      font-size: 20px;
+      margin-top: 43px;
+      margin-bottom: 104px;
+      color: #72b2f2; }
+    .hero .whatwedo button {
+      margin-right: 11px;
+      border-style: none;
+      font-size: 18px;
+      padding: 17px 29px;
+      background-color: #6166ed; }
+      .hero .whatwedo button a {
+        color: white; }
+      .hero .whatwedo button:last-child {
+        background-color: #312e64; }
+  .hero .sponsors {
+    margin-top: 138px;
+    display: flex;
+    justify-content: space-around; }
+    .hero .sponsors img {
+      height: auto;
+      width: 96px; }
+
+#whatWeDo {
+  margin-top: 75px; }
+  #whatWeDo h2 {
+    margin-top: 57px;
+    margin-bottom: 60px; }
+  #whatWeDo p {
+    padding: 0 40px;
+    text-align: center; }
+
+.products {
+  margin-top: 90px; }
+  .products .product {
+    display: inline-block;
+    margin: 15px 23px 2px;
+    width: 250px;
+    color: #161765;
+    -webkit-box-shadow: 0px -1px 12px 1px #d1cfd1;
+    -moz-box-shadow: 0px -1px 12px 1px #d1cfd1;
+    box-shadow: 0px -1px 12px 1px #d1cfd1; }
+    .products .product .wrap {
+      padding-left: 28px;
+      padding-right: 50px; }
+      .products .product .wrap img {
+        margin-top: 36px;
+        height: 130px;
+        width: auto; }
+      .products .product .wrap h3 {
+        margin-top: 41px;
+        font-size: 20px;
+        font-weight: bold; }
+      .products .product .wrap p {
+        margin-top: 29px;
+        font-size: 14px; }
+    .products .product button {
+      margin-top: 30px;
+      height: 54px;
+      width: 100%;
+      font-size: 12px;
+      font-weight: bold;
+      letter-spacing: 1px;
+      color: white;
+      border: none;
+      background-color: #4b479e; }
+      .products .product button i {
+        color: #52e6c7; }
+
+.technology {
+  background-color: #f0f0f0;
+  margin-top: 86px;
+  padding-top: 151px; }
+  .technology h2 {
+    margin-top: 140px;
+    margin-bottom: 42px; }
+
+.technology2 {
+  margin-top: 131px; }
+  .technology2 h2 {
+    margin-top: 140px;
+    margin-bottom: 42px; }
+
+.contact {
+  margin-top: 120px;
+  background-image: url("../images/bg1.jpg");
+  font-size: 17px;
+  text-transform: uppercase;
+  color: white;
+  padding-top: 76px; }
+  .contact .contacts p {
+    margin-top: 78px;
+    font-weight: bold;
+    letter-spacing: 1.2px; }
+    .contact .contacts p span {
+      color: #7dbd6e; }
+  .contact .media {
+    margin-top: 55px; }
+    .contact .media a {
+      margin-right: 34px;
+      font-size: 22px;
+      color: white; }
+      .contact .media a:hover {
+        color: #7dbd6e; }
+    .contact .media .fa-twitter {
+      color: #7dbd6e; }
+      .contact .media .fa-twitter:hover {
+        color: white; }
+  .contact h2 {
+    margin-bottom: 40px;
+    text-align: left;
+    color: white;
+    letter-spacing: 1.2px; }
+  .contact form {
+    font-size: 12px; }
+    .contact form label {
+      position: relative;
+      margin-top: 36px; }
+      .contact form label input {
+        position: absolute;
+        top: 3px;
+        width: 90%;
+        display: block;
+        border: none;
+        outline: none;
+        border-bottom: 1px solid white;
+        background: transparent;
+        transition: 0.5s; }
+        .contact form label input:-webkit-autofill {
+          -webkit-text-fill-color: white;
+          transition: background-color 5000s ease-in-out 0s;
+          color: white; }
+        .contact form label input:focus {
+          color: white;
+          outline: none;
+          border-bottom: 1px solid #7dbd6e;
+          top: 13px; }
+        .contact form label input:valid {
+          color: white; }
+    .contact form .col-12 input {
+      top: 33px;
+      width: 95%; }
+      .contact form .col-12 input:focus {
+        top: 33px; }
+      .contact form .col-12 input:focus label {
+        margin-top: 36px; }
+    .contact form button {
+      width: 226px;
+      height: 59px;
+      margin-top: 119px;
+      margin-right: 40px;
+      float: right;
+      font-size: 12px;
+      font-weight: bold;
+      letter-spacing: 1.2px;
+      text-transform: uppercase;
+      color: #7dbd6e;
+      background: none;
+      border: 1px solid #7dbd6e;
+      border-radius: 50px; }
+      .contact form button:focus {
+        outline: none; }
+
+footer p {
+  margin-top: 74px;
+  margin-bottom: 74px;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 1.2px; }
+
+@media screen and (max-width: 768px) {
+  p {
+    padding: 0 40px;
+    text-align: center; }
+
+  .container {
+    max-width: 700px; }
+
+  .hero {
+    height: auto;
+    padding-bottom: 50px; }
+    .hero nav a {
+      display: flex;
+      justify-content: center; }
+      .hero nav a img {
+        float: none; }
+    .hero nav ul {
+      margin-top: 15px;
+      float: none; }
+      .hero nav ul li {
+        margin: auto; }
+    .hero .whatwedo {
+      margin-top: 50px;
+      text-align: center; }
+      .hero .whatwedo p {
+        margin-bottom: 30px; }
+    .hero .sponsors {
+      margin-top: 60px; }
+      .hero .sponsors img {
+        width: 60px; }
+
+  #whatWeDo {
+    margin-top: 50px; }
+    #whatWeDo .col-6 {
+      width: 100%; }
+
+  .products {
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; }
+    .products .product {
+      margin: 6px auto;
+      display: inline-block; }
+      .products .product p {
+        text-align: left;
+        padding: 0 0; }
+
+  .technology {
+    margin-top: 50px;
+    padding-top: 0; }
+    .technology h2 {
+      margin-top: 50px; }
+    .technology .col-6 {
+      width: 100%; }
+
+  .technology2 {
+    margin-top: 50px;
+    padding-top: 0; }
+    .technology2 h2 {
+      margin-top: 50px; }
+    .technology2 .col-6 {
+      width: 100%; }
+
+  .contact {
+    margin-top: 50px;
+    padding-top: 0; }
+    .contact .col-4, .contact .col-8 {
+      width: 100%; }
+    .contact .media {
+      margin-top: 30px;
+      display: flex;
+      justify-content: center; }
+    .contact .col-8 {
+      margin-top: 50px; }
+      .contact .col-8 h2 {
+        text-align: center; }
+      .contact .col-8 form {
+        padding: 0 10px; }
+        .contact .col-8 form button {
+          margin-top: 80px; }
+
+  footer p {
+    margin-bottom: 50px; } }
+@media screen and (max-width: 320px) {
+  .hero nav {
+    padding-top: 30px; }
+    .hero nav img {
+      margin-bottom: 10px; }
+    .hero nav ul li {
+      margin: 0 auto;
+      width: 50%;
+      display: inline-block;
+      margin-top: 10px; }
+      .hero nav ul li:last-child {
+        width: 151px;
+        height: 22px;
+        border: 0 solid;
+        border-radius: 0; }
+  .hero .whatwedo h1 {
+    font-size: 30px; }
+  .hero .whatwedo p {
+    margin-top: 10px;
+    font-size: 16px; }
+  .hero .whatwedo button {
+    width: 80%;
+    margin-bottom: 10px; }
+  .hero .sponsors {
+    display: none; }
+
+  #whatWeDo {
+    margin-top: 30px; }
+    #whatWeDo h2 {
+      margin-top: 30px;
+      margin-bottom: 30px; }
+
+  .products {
+    margin-top: 30px; }
+
+  .contact .col-6 {
+    width: 100%; } }
+
+/*# sourceMappingURL=style.css.map */
