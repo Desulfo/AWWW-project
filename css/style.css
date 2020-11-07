@@ -22,6 +22,7 @@ button:hover {
   cursor: pointer; }
 
 .container {
+  text-aligne: center;
   max-width: 1200px;
   margin: 0 auto;
   overflow: auto;
@@ -67,7 +68,8 @@ button:hover {
   width: 100%; }
 
 .hero {
-  background-image: url("../images/bg2.jpg");
+  background-color: #2A2281;
+  background-image: url("images/bg2.jpg");
   background-repeat: none;
   height: 900px; }
   .hero nav {
@@ -190,7 +192,8 @@ button:hover {
 
 .contact {
   margin-top: 120px;
-  background-image: url("../images/bg1.jpg");
+  background-color: #2A2281;
+  background-image: url("images/bg1.jpg");
   font-size: 17px;
   text-transform: uppercase;
   color: white;
